@@ -1,0 +1,73 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\action.png" />
+    <None Remove="Resources\adventure.png" />
+    <None Remove="Resources\anime.png" />
+    <None Remove="Resources\catastrophe.png" />
+    <None Remove="Resources\comedy.png" />
+    <None Remove="Resources\concept.png" />
+    <None Remove="Resources\crime.png" />
+    <None Remove="Resources\detective.png" />
+    <None Remove="Resources\documentary.png" />
+    <None Remove="Resources\drama.png" />
+    <None Remove="Resources\family.png" />
+    <None Remove="Resources\fantasy.png" />
+    <None Remove="Resources\games.png" />
+    <None Remove="Resources\history.png" />
+    <None Remove="Resources\horror.png" />
+    <None Remove="Resources\musical.png" />
+    <None Remove="Resources\mystery.png" />
+    <None Remove="Resources\psychology.png" />
+    <None Remove="Resources\romance.png" />
+    <None Remove="Resources\sci-fi.png" />
+    <None Remove="Resources\short.png" />
+    <None Remove="Resources\sport.png" />
+    <None Remove="Resources\story.png" />
+    <None Remove="Resources\thriller.png" />
+    <None Remove="Resources\tragicomedy.png" />
+    <None Remove="Resources\voiceover.png" />
+    <None Remove="Resources\western.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\action.png" />
+    <Resource Include="Resources\adventure.png" />
+    <Resource Include="Resources\anime.png" />
+    <Resource Include="Resources\catastrophe.png" />
+    <Resource Include="Resources\comedy.png" />
+    <Resource Include="Resources\concept.png" />
+    <Resource Include="Resources\crime.png" />
+    <Resource Include="Resources\detective.png" />
+    <Resource Include="Resources\documentary.png" />
+    <Resource Include="Resources\drama.png" />
+    <Resource Include="Resources\family.png" />
+    <Resource Include="Resources\fantasy.png" />
+    <Resource Include="Resources\games.png" />
+    <Resource Include="Resources\history.png" />
+    <Resource Include="Resources\horror.png" />
+    <Resource Include="Resources\musical.png" />
+    <Resource Include="Resources\mystery.png" />
+    <Resource Include="Resources\psychology.png" />
+    <Resource Include="Resources\romance.png" />
+    <Resource Include="Resources\sci-fi.png" />
+    <Resource Include="Resources\short.png" />
+    <Resource Include="Resources\sport.png" />
+    <Resource Include="Resources\story.png" />
+    <Resource Include="Resources\thriller.png" />
+    <Resource Include="Resources\tragicomedy.png" />
+    <Resource Include="Resources\voiceover.png" />
+    <Resource Include="Resources\western.png" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,23 @@
+﻿@model Cinema
+
+<div class="card">
+    <img src="@Model.Poster" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">@Model.Title (@Model.Year)</h5>
+        <p class="card-text">Janre : @Model.Type</p>
+        <p >
+        @foreach (var item in @Model.Genre.Images())
+        {  
+               // <img src="./Resources/Comedy.png" alt="@item.Name">
+               <img src="@item.FileName" />
+            }
+        
+        </p>
+        @if (Model.Plot==null)
+        {
+              <a asp-controller="Home" asp-action="Movie"  asp-route-id="@Model.imdbID" class="btn btn-primary">Detail</a>
+        }
+
+      
+    </div>
+</div>

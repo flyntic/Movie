@@ -8,9 +8,8 @@
         <p >
         @foreach (var item in @Model.Genre.Images())
         {  
-               // <img src="./Resources/Comedy.png" alt="@item.Name">
-               <img src="@item.FileName" />
-            }
+               <img src="@item.FileName" alt="@item.Name" width="30px" height="30px"/>
+        }
         
         </p>
         @if (Model.Plot==null)

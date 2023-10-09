@@ -40,7 +40,7 @@ namespace Movie.Services
                 var json = await response.Content.ReadAsStringAsync();
                 result = JsonConvert.DeserializeObject<MovieApiResponse>(json);
 
-                if (result.Response == "False")
+                if ((result==null)||(result.Response == "False"))
                     throw new Exception(result.Error);
 
                 memoryCache.Set(title, result);

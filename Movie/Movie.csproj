@@ -37,37 +37,68 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\images\action.png" />
+    <None Include="wwwroot\images\adventure.png" />
+    <None Include="wwwroot\images\anime.png" />
+    <None Include="wwwroot\images\catastrophe.png" />
+    <None Include="wwwroot\images\comedy.png" />
+    <None Include="wwwroot\images\concept.png" />
+    <None Include="wwwroot\images\crime.png" />
+    <None Include="wwwroot\images\detective.png" />
+    <None Include="wwwroot\images\documentary.png" />
+    <None Include="wwwroot\images\drama.png" />
+    <None Include="wwwroot\images\family.png" />
+    <None Include="wwwroot\images\fantasy.png" />
+    <None Include="wwwroot\images\games.png" />
+    <None Include="wwwroot\images\history.png" />
+    <None Include="wwwroot\images\horror.png" />
+    <None Include="wwwroot\images\musical.png" />
+    <None Include="wwwroot\images\mystery.png" />
+    <None Include="wwwroot\images\psychology.png" />
+    <None Include="wwwroot\images\romance.png" />
+    <None Include="wwwroot\images\sci-fi.png" />
+    <None Include="wwwroot\images\short.png" />
+    <None Include="wwwroot\images\sport.png" />
+    <None Include="wwwroot\images\story.png" />
+    <None Include="wwwroot\images\thriller.png" />
+    <None Include="wwwroot\images\tragicomedy.png" />
+    <None Include="wwwroot\images\voiceover.png" />
+    <None Include="wwwroot\images\western.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.11" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Resources\action.png" />
-    <Resource Include="Resources\adventure.png" />
-    <Resource Include="Resources\anime.png" />
-    <Resource Include="Resources\catastrophe.png" />
-    <Resource Include="Resources\comedy.png" />
-    <Resource Include="Resources\concept.png" />
-    <Resource Include="Resources\crime.png" />
-    <Resource Include="Resources\detective.png" />
-    <Resource Include="Resources\documentary.png" />
-    <Resource Include="Resources\drama.png" />
-    <Resource Include="Resources\family.png" />
-    <Resource Include="Resources\fantasy.png" />
-    <Resource Include="Resources\games.png" />
-    <Resource Include="Resources\history.png" />
-    <Resource Include="Resources\horror.png" />
-    <Resource Include="Resources\musical.png" />
-    <Resource Include="Resources\mystery.png" />
-    <Resource Include="Resources\psychology.png" />
-    <Resource Include="Resources\romance.png" />
-    <Resource Include="Resources\sci-fi.png" />
-    <Resource Include="Resources\short.png" />
-    <Resource Include="Resources\sport.png" />
-    <Resource Include="Resources\story.png" />
-    <Resource Include="Resources\thriller.png" />
-    <Resource Include="Resources\tragicomedy.png" />
-    <Resource Include="Resources\voiceover.png" />
-    <Resource Include="Resources\western.png" />
+    <Resource Include="wwwroot\images\action.png" />
+    <Resource Include="wwwroot\images\adventure.png" />
+    <Resource Include="wwwroot\images\anime.png" />
+    <Resource Include="wwwroot\images\catastrophe.png" />
+    <Resource Include="wwwroot\images\comedy.png" />
+    <Resource Include="wwwroot\images\concept.png" />
+    <Resource Include="wwwroot\images\crime.png" />
+    <Resource Include="wwwroot\images\detective.png" />
+    <Resource Include="wwwroot\images\documentary.png" />
+    <Resource Include="wwwroot\images\drama.png" />
+    <Resource Include="wwwroot\images\family.png" />
+    <Resource Include="wwwroot\images\fantasy.png" />
+    <Resource Include="wwwroot\images\games.png" />
+    <Resource Include="wwwroot\images\history.png" />
+    <Resource Include="wwwroot\images\horror.png" />
+    <Resource Include="wwwroot\images\musical.png" />
+    <Resource Include="wwwroot\images\mystery.png" />
+    <Resource Include="wwwroot\images\psychology.png" />
+    <Resource Include="wwwroot\images\romance.png" />
+    <Resource Include="wwwroot\images\sci-fi.png" />
+    <Resource Include="wwwroot\images\short.png" />
+    <Resource Include="wwwroot\images\sport.png" />
+    <Resource Include="wwwroot\images\story.png" />
+    <Resource Include="wwwroot\images\thriller.png" />
+    <Resource Include="wwwroot\images\tragicomedy.png" />
+    <Resource Include="wwwroot\images\voiceover.png" />
+    <Resource Include="wwwroot\images\western.png" />
   </ItemGroup>
 
 </Project>
